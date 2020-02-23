@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Test Automation Suite" duration-ms="39207" started-at="2020-02-21T04:07:29Z" finished-at="2020-02-21T04:08:08Z">
+    <groups>
+    </groups>
+    <test name="Amazon Test" duration-ms="39207" started-at="2020-02-21T04:07:29Z" finished-at="2020-02-21T04:08:08Z">
+      <class name="com.amazon.qa.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.qa.tests.LoginPageTest@327b636c]" name="setUp" is-config="true" duration-ms="19982" started-at="2020-02-21T04:07:29Z" finished-at="2020-02-21T04:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:1, instance:com.amazon.qa.tests.LoginPageTest@327b636c]" name="testLogin" duration-ms="14931" started-at="2020-02-21T04:07:49Z" data-provider="getTestData" finished-at="2020-02-21T04:08:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tej.vanama@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amazon@2807]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.qa.tests.LoginPageTest@327b636c]" name="tearDown" is-config="true" duration-ms="4075" started-at="2020-02-21T04:08:04Z" finished-at="2020-02-21T04:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.qa.tests.LoginPageTest -->
+    </test> <!-- Amazon Test -->
+  </suite> <!-- Amazon Test Automation Suite -->
+</testng-results>
