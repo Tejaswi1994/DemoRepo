@@ -1,4 +1,4 @@
-/*package com.qa.ExtentReportListener;
+package com.qa.ExtentReportListener;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -72,4 +72,3 @@ public class ExtentReportListenerNG implements IReporter{
 		return calendar.getTime();
 	}
 }
-*/
